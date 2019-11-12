@@ -1,6 +1,6 @@
 
 
-int printf(const char * format, ...)
+int printf(const char * format, ...);
 
 int global_init_var = 84;
 int global_uninit_var;
@@ -16,6 +16,6 @@ int main(void)
 	static int static_var2;
 	int a = 1;
 	int b;
-	func1( static_var + static_var2 + a +b );
+	func1( static_var + static_var2 + a + b );
 	return a;
 }
